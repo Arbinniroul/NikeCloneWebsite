@@ -7,7 +7,7 @@ label:string,
 }
 const Navbar = () => {
   return (
-    <div className="flex w-full flex-col border-b-2 h-32">
+    <div className="flex w-full flex-col  h-32">
       <div className="flex w-full items-center justify-end px-12 bg-gray-100 h-12">
 
         <ul className="flex ">

@@ -46,7 +46,7 @@ const CarouselComponent = () => {
                 <img
                   src={image}
                   alt="shoes"
-                  className="w-full h-[500px] object-cover rounded-lg"
+                  className="w-full h-[800px] object-cover rounded-lg"
                 />
                 {/* Overlay for Buttons */}
                 <div className="absolute top-7 inset-0 flex items-center justify-between px-6">
