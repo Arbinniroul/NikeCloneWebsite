@@ -230,7 +230,37 @@ export const URL:Product[]=
   },
  
 ]
-const URL2=
+
+export const staticPhotos=[
+
+   { 
+    id:1,
+    imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_709,c_limit/cf9b1d53-1fb5-4355-b2b8-ca0437c053e4/nike-just-do-it.png',
+    head:'Air Max Dn8',
+},{
+id:2,
+imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_709,c_limit/28bb01bb-991e-4fc3-92e2-85f4916e29b8/nike-just-do-it.jpg',
+head:'Air Max Dn',
+},
+{
+id: 3,
+imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_709,c_limit/d3302631-9f44-435d-9b5b-10d7ea8604da/image.jpg',
+head:'Air Max LV8'
+},
+{
+id:4,
+imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_709,c_limit/8c344c56-9fe7-4d83-ba29-be95a9fbae95/image.png',
+head:'Kids Air Max'
+},
+{
+id:5,
+imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_709,c_limit/9f24d90f-6f2a-416b-8ed1-e56d6d0a72d4/image.jpg',
+head:'Air Max Plus'
+},
+
+
+]
+export const URL2=
 [ {
     id: 12,
     name: "Nike Air Max 90 LTR",
