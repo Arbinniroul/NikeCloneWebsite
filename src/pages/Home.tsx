@@ -4,8 +4,9 @@ import CarouselComponent from '../modules/Carousel';
 import ImgContainer from '../modules/ImgContainer';
 import Navbar from '../modules/Navbar';
 import Scroller from '../modules/Scroller';
-import Template from '../modules/template';
+
 import Footer from '../modules/Footer';
+import Template from '../modules/Template';
 
 
 const Home: React.FC = () => {
