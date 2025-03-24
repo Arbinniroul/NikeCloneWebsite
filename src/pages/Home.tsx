@@ -5,6 +5,7 @@ import ImgContainer from '../modules/ImgContainer';
 import Navbar from '../modules/Navbar';
 import Scroller from '../modules/Scroller';
 import Template from '../modules/template';
+import Footer from '../modules/Footer';
 
 
 const Home: React.FC = () => {
@@ -40,7 +41,7 @@ const Home: React.FC = () => {
 
 
   return (
-    <div>
+    <div >
       <Navbar />
       <CarouselComponent />
 <div className='px-16 pr-16'>
@@ -71,6 +72,7 @@ const Home: React.FC = () => {
       <Scroller photoSrc={memberBenefitsImgs} turn='5' title='Member Benefits' btnValue={buttonValue} description={descriptionVal} info={heading}/>
 
       </div>
+      <Footer/>
     </div>
   );
 };

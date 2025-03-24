@@ -669,6 +669,8 @@ export const MemberBenefits=[
     },
     {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/c17ae904-9307-4575-8ac1-ad08adafe17f/nike-just-do-it.jpg',
         description:'SNKRS',
+     title:'Your Ultimate Sneaker Community',
+
         buttonValue:'Explore'
         
 

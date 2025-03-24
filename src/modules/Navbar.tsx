@@ -7,8 +7,9 @@ label:string,
 }
 const Navbar = () => {
   return (
-    <div className="flex w-full flex-col  h-32">
-      <div className="flex w-full items-center justify-end px-12 bg-gray-100 h-12">
+    <div className="relative flex w-full flex-col  h-32">
+      
+      <div className="relative  flex w-full items-center justify-end px-12 bg-gray-100 h-12">
 
         <ul className="flex ">
           {
@@ -23,7 +24,8 @@ const Navbar = () => {
         </ul>
 
       </div>
-      <div className=" flex justify-between items-center h-20 px-14">
+
+      <div className=" flex justify-between items-center h-20 px-14  bg-white">
         <div>
           <img src={logo} alt="" className="h-10 w-20" />
         </div>
@@ -52,9 +54,11 @@ const Navbar = () => {
           <Badge size={30} />
 
             
-          </div>
+
         </div>
       </div>
+</div>
+    
 
 
     </div>
