@@ -33,7 +33,7 @@ const Home: React.FC = () => {
       </div>
       <ImgContainer imgUrl={[webImg[0]]} id="0" />
       <Scroller
-        title="Latest & Greatest"
+        title="The Latest & Greatest"
         photoSrc={imageURLs}
         info={names}
         price={prices}

@@ -1,5 +1,5 @@
 import React from 'react';
-import MaxCard from './MaxCard';
+import MaxCard from './Cards';
 
 interface ScrollerProps {
   photoSrc?: string[];
