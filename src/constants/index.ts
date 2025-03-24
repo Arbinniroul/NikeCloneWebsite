@@ -590,4 +590,73 @@ export const staticShoes=[
     }
 ]
 
+export const SportImages=[
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_440,c_limit/a3c971bc-bc0a-4c0c-8bdf-e807a3027e53/nike-just-do-it.jpg',
+     buttonValue:'Running'
 
+    },
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_440,c_limit/e4695209-3f23-4a05-a9f9-d0edde31b653/nike-just-do-it.jpg',
+        buttonValue:'Football'
+
+    },  
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_440,c_limit/38ed4b8e-9cfc-4e66-9ddd-02a52314eed9/nike-just-do-it.jpg',
+        buttonValue:'Basketball'
+
+    },  
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_440,c_limit/e36a4a2b-4d3f-4d1c-bc75-d6057b7cec87/nike-just-do-it.jpg',
+        buttonValue:'Training and Gym'
+
+    },
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_440,c_limit/7ce96f81-bf80-45b9-918e-f2534f14015d/nike-just-do-it.jpg',
+        buttonValue:'Tennis'
+
+    },
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_440,c_limit/6be55ac6-0243-42d6-87d0-a650074c658c/nike-just-do-it.jpg',
+        buttonValue:'Yoga'
+        
+
+    },
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_440,c_limit/608705dc-dea5-4450-b68f-e624cf1ed2a7/nike-just-do-it.jpg'
+           ,buttonValue:"Skateboarding"
+    },
+    {
+        imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_440,c_limit/c779e4f6-7d91-46c3-9282-39155e0819e5/nike-just-do-it.jpg'
+        ,buttonValue:'Dancing'}
+  
+    
+]
+
+export const MemberBenefits=[
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/cb28c551-b85b-479f-8fc3-40ad4e7c9ca4/nike-just-do-it.jpg',
+     description:'Your Exclusive Access',
+        buttonValue:'Running'
+
+    },
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/100ca749-1a94-4f98-bc43-a58e7e9cdbcf/nike-just-do-it.png',
+        description:'Your Customization Service',
+        buttonValue:'Shop'
+
+    },  
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/39412611-0af5-4770-8c2e-ef5c23bc6a3d/nike-just-do-it.jpg',
+        description:'How We Say Thank You',
+        buttonValue:'Customize'
+
+    },  
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/a9767bce-db10-41ff-9eb5-f5daf8bbb3e6/nike-just-do-it.png',
+        description:'A Celebration Of You',
+        buttonValue:'Learn More'
+
+    },
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/37b262a3-c8c7-49e8-a29f-8d46bc8ab950/nike-just-do-it.jpg',
+        description:'Movement Where You are',
+        buttonValue:'Move'
+
+    },
+    {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/c17ae904-9307-4575-8ac1-ad08adafe17f/nike-just-do-it.jpg',
+        description:'Your Ulimate Sneaker Community',
+        buttonValue:'Explore'
+        
+
+    },
+ 
+]

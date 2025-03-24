@@ -1,6 +1,8 @@
 import React from 'react';
 import Card1 from './MaxCard';
 import Card2 from './LatestCard';
+import IconCards from './IconCards';
+import SportCard from './SportCard';
 
 interface MaxCardProps {
   photoSrc: string;
@@ -8,30 +10,41 @@ interface MaxCardProps {
   price?: number;
   description?: string; 
   turn?: string; 
+  title?:string;
+  btnValue?:string;
 }
 
-const MaxCard: React.FC<MaxCardProps> = ({ photoSrc, info,price,description='',turn}) => {
+const MaxCard: React.FC<MaxCardProps> = ({ photoSrc, info, price, description = '', turn ,title,btnValue}) => {
   const toTitleCase = (str: string): string => {
     return str.replace(/\w\S*/g, (txt) => {
       return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
     });
   };
-  return (
-    <div className="min-w-[400px] h-[550px] bg-white rounded-lg mb-32 font-sans ">
-      
 
-     
-      
-      {
-        turn === '1'? (
-       <Card1 photoSrc={photoSrc} info={info}/>
-        ) : (
-         <Card2 photoSrc={photoSrc} info={info} toTitleCase={toTitleCase} description={description} price={price}/>
-        )
-      }
-   
-    </div>
-  );
+  switch (turn) {
+    case "1":
+      return <div><Card1 photoSrc={photoSrc} info={info} title={title} />;</div>
+    case "2":
+      return (
+        <div>
+ <Card2 title={title}
+          photoSrc={photoSrc} 
+          info={info} 
+          toTitleCase={toTitleCase} 
+          description={description} 
+          price={price}
+        />
+        </div>
+       
+      );
+      case "3":
+        return <div><IconCards photoSrc={photoSrc}  /></div>;
+      case "4":
+        return <div><SportCard photoSrc={photoSrc} btnValue={btnValue}  /></div>;
+
+    default:
+      return <div>No card selected</div>; 
+  }
 };
 
 export default MaxCard;

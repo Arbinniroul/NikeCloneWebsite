@@ -2,7 +2,7 @@
 
 const Card2 = ({photoSrc,info,toTitleCase,description,price}) => {
   return (
-    <div> 
+    <div className="min-w-[400px] h-[550px] bg-white rounded-lg mb-32 font-sans "> 
         <div>
     <img
 className="text-xl font-bold bg-black h-[450px] min-w-[500px]   object-cover"

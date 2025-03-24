@@ -8,6 +8,7 @@ interface ScrollerProps {
   title: string;
   description?: string[];
   turn?:string;
+  btnValue?: string[];
 }
 
 const Scroller: React.FC<ScrollerProps> = ({
@@ -15,11 +16,12 @@ const Scroller: React.FC<ScrollerProps> = ({
   info = [],
   price = [],
   title,
+  btnValue=[],
   description = [],
    turn
 }) => {
 
-  const itemCount = Math.min(photoSrc.length, info.length);
+  const itemCount = Math.min(photoSrc.length);
 
   return (
     <div className="mx-auto my-10 mt-32 ml-14">
@@ -32,7 +34,8 @@ const Scroller: React.FC<ScrollerProps> = ({
             info={info[index]}
             price={price[index]}
             description={description[index]}
-            turn={turn}  
+            turn={turn}
+            btnValue={btnValue[index]}  
           />
         ))}
       </div>
