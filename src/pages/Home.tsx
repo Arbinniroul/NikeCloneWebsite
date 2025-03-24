@@ -1,5 +1,5 @@
 import React from 'react';
-import { staticPhotos, URL } from '../constants';
+import { staticPhotos, URL, webPhotos } from '../constants';
 import CarouselComponent from '../modules/Carousel';
 import ImgContainer from '../modules/ImgContainer';
 import Navbar from '../modules/Navbar';
@@ -21,6 +21,9 @@ const Home: React.FC = () => {
   const heads = staticData.map((product) => product.head);
   const imageUrls = staticData.map((product) => product.imageUrl);
 
+  const photos=webPhotos && Array.isArray(webPhotos)?webPhotos : [];
+  const webImg=photos.map((products) => products.imageUrl);
+  
   return (
     <div>
       <Navbar />
@@ -28,7 +31,7 @@ const Home: React.FC = () => {
       <div className='ml-10' >
         <Scroller title="Find Your Max" photoSrc={imageUrls} info={heads} price={[]} turn='1'/>
       </div>
-      <ImgContainer />
+      <ImgContainer imgUrl={[webImg[0]]} id="0" />
       <Scroller
         title="Latest & Greatest"
         photoSrc={imageURLs}
@@ -37,6 +40,8 @@ const Home: React.FC = () => {
         description={descriptions }
         turn='2'  
       />
+      <ImgContainer imgUrl={[webImg[1]]} id="1" />
+
        
     </div>
   );

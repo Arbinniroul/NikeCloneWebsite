@@ -547,5 +547,47 @@ export const URL2=
     slug: "michael-feburary-sk8-hi",
     featured: 0
   }]
+export const webPhotos=[
+  
+   { imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1824,c_limit/e9779a50-cb65-4bcc-97e5-1248c219b7c4/nike-just-do-it.jpg'
+
+   },
+   {
+    imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1824,c_limit/ce05cda5-e2b5-434a-a97b-695fb05c8b4d/nike-just-do-it.jpg'
+},
+]
+
+export const staticShoes=[
+    {   id:1,
+        imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_567,c_limit/c05dfab5-2d0e-48e3-8ca0-f04c21ccee2c/nike-just-do-it.png'
+    },
+    {   id:2,
+        imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_567,c_limit/c6ce0b87-cc23-4113-9d19-48248900eb0c/nike-just-do-it.png'
+    },
+    {   id:3,
+        imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_567,c_limit/9a1898f3-e10d-4df8-b2cf-e2b0735f7742/nike-just-do-it.png'
+    },
+    {   id:4,
+        imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_567,c_limit/1892aab6-5b81-422f-b7e5-d5072294a299/nike-just-do-it.png'
+    },
+    {   id:5,
+        imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_567,c_limit/8568c73b-a0b5-47e0-a9bc-409353e7272e/nike-just-do-it.png'
+    },
+    {   id:6,
+        imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_567,c_limit/2ea8fe0a-b92c-4eb0-8ae5-b80ffc95a7d2/nike-just-do-it.png'
+    },
+    {   id:7,
+        imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_567,c_limit/f520c30b-5385-4f77-bdc3-40d4878d0d55/nike-just-do-it.png'
+    },
+    {   id:8,
+        imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_567,c_limit/b9c593b6-f789-4459-abb3-4708eb84d047/nike-just-do-it.png'
+    },
+    {   id:9,
+        imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_567,c_limit/6e80dada-0014-441d-9d0e-986b36f1d817/nike-just-do-it.png'
+    },
+    {   id:10,
+        imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_567,c_limit/65d6ceb7-1c9e-41fb-8acc-37eb1799e1b8/nike-just-do-it.png'
+    }
+]
 
 
