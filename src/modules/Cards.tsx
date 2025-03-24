@@ -3,6 +3,8 @@ import Card1 from './MaxCard';
 import Card2 from './LatestCard';
 import IconCards from './IconCards';
 import SportCard from './SportCard';
+import MemberBenefit from './MemberBenefit';
+
 
 interface MaxCardProps {
   photoSrc: string;
@@ -12,6 +14,7 @@ interface MaxCardProps {
   turn?: string; 
   title?:string;
   btnValue?:string;
+
 }
 
 const MaxCard: React.FC<MaxCardProps> = ({ photoSrc, info, price, description = '', turn ,title,btnValue}) => {
@@ -41,9 +44,11 @@ const MaxCard: React.FC<MaxCardProps> = ({ photoSrc, info, price, description = 
         return <div><IconCards photoSrc={photoSrc}  /></div>;
       case "4":
         return <div><SportCard photoSrc={photoSrc} btnValue={btnValue}  /></div>;
-
+        case "5":
+          return <div><MemberBenefit photoSrc={photoSrc} btnValue={btnValue} description={description} info={info}  /></div>;
+  
     default:
-      return <div>No card selected</div>; 
+      return <div><IconCards photoSrc={photoSrc}  /></div>;; 
   }
 };
 

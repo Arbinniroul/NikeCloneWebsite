@@ -629,31 +629,46 @@ export const SportImages=[
 export const MemberBenefits=[
     {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/cb28c551-b85b-479f-8fc3-40ad4e7c9ca4/nike-just-do-it.jpg',
      description:'Your Exclusive Access',
-        buttonValue:'Running'
+     title:'Member Product',
+        buttonValue:'Shop'
 
     },
     {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/100ca749-1a94-4f98-bc43-a58e7e9cdbcf/nike-just-do-it.png',
         description:'Your Customization Service',
-        buttonValue:'Shop'
+     title:'Nike By You',
+
+        buttonValue:'Customize'
+
 
     },  
     {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/39412611-0af5-4770-8c2e-ef5c23bc6a3d/nike-just-do-it.jpg',
-        description:'How We Say Thank You',
-        buttonValue:'Customize'
+        description:'How We Say Thankyou',
+     title:'Member Rewards',
+
+        buttonValue:'Celebrate'
+       
 
     },  
     {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/a9767bce-db10-41ff-9eb5-f5daf8bbb3e6/nike-just-do-it.png',
         description:'A Celebration Of You',
+     title:'Member Days',
+         
         buttonValue:'Learn More'
+
+
+
 
     },
     {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/37b262a3-c8c7-49e8-a29f-8d46bc8ab950/nike-just-do-it.jpg',
         description:'Movement Where You are',
+     title:'Sports & Wellness Apps',
+
         buttonValue:'Move'
+
 
     },
     {imageUrl:'https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_443,c_limit/c17ae904-9307-4575-8ac1-ad08adafe17f/nike-just-do-it.jpg',
-        description:'Your Ulimate Sneaker Community',
+        description:'SNKRS',
         buttonValue:'Explore'
         
 

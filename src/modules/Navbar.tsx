@@ -44,11 +44,11 @@ const Navbar = () => {
             </div>
             <input type="text" className="border-none outline-none px-2 py-1 w-36" placeholder="Search" />
           </div>
-          <div className="p-2 rounded-full hover:bg-gray-200">
+          <div className="p-2 rounded-full hover:bg-gray-500 cursor-pointer">
           <Heart size={30}  />
             
           </div>
-          <div className="p-2 rounded-full hover:bg-gray-200">
+          <div className="p-2 rounded-full hover:bg-gray-200 cursor-pointer">
           <Badge size={30} />
 
             

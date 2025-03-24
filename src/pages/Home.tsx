@@ -34,12 +34,16 @@ const Home: React.FC = () => {
 
   const memberBenefits=MemberBenefits && Array.isArray(MemberBenefits)?MemberBenefits :[];
   const memberBenefitsImgs=memberBenefits.map((products) => products.imageUrl);
-  const buttonValue=MemberBenefits.map((product) => product.buttonValue);
+  const buttonValue=memberBenefits.map((product) => product.buttonValue);
+  const descriptionVal=memberBenefits.map((product) => product.description);
+  const heading=memberBenefits.map((product) => product.title);
+
+
   return (
     <div>
       <Navbar />
       <CarouselComponent />
-<div className='ml-10'>
+<div className='px-16 pr-16'>
 <Scroller title="Find Your Max" photoSrc={imageUrls} info={heads} price={[]} turn='1'/>
 </div>
       
@@ -57,13 +61,14 @@ const Home: React.FC = () => {
       <Template/>
 
         
-        <div className='px-14'>
+        <div className='px-16 pr-16'>
         <Scroller photoSrc={shoeIconsImgs} title='Shop By Icons' info={[]} price={[]} turn='3' />
         <Scroller photoSrc={sportImgs} turn='4' title='Shop by Sport' btnValue={btnValue}/>
 
       
 
-      <Scroller photoSrc={memberBenefitsImgs} turn='3' title='Member Benefits' btnValue={buttonValue}/>
+
+      <Scroller photoSrc={memberBenefitsImgs} turn='5' title='Member Benefits' btnValue={buttonValue} description={descriptionVal} info={heading}/>
 
       </div>
     </div>

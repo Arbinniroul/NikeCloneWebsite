@@ -2,11 +2,10 @@
 
 const IconCards = ({photoSrc}) => {
   return (
-<div className="min-w-[450px] h-[550px] bg-white rounded-lg mb-10 font-sans cursor-pointer "> 
+<div className="min-w-[450px] h-[400px] bg-white rounded-lg mb-32  font-sans cursor-pointer  "> 
 <img
-        className="text-xl  font-bold bg-black h-[490px]   object-cover"
+        className="text-xl  font-bold bg-black  w-full   object-cover "
         src={photoSrc}
-
         
       />
     </div>
