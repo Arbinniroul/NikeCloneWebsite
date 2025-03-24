@@ -27,11 +27,11 @@ export const Navlinks:NavItem[]=[
         href: '/',
     },
     {
-        label: 'Man',
+        label: 'Men',
         href: '/man',
     },
     {
-        label: 'Woman',
+        label: 'Women',
         href: '/women',
     },
     {
@@ -39,7 +39,7 @@ export const Navlinks:NavItem[]=[
         href: '/kids',
     },
     {
-        label: 'sale',
+        label: 'Sale',
         href: '/sale',
     },
     {

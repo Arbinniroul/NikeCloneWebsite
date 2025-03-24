@@ -1,9 +1,10 @@
-import React, { useEffect, useRef } from 'react';
+import  { useEffect, useRef } from 'react';
 import img1 from '../assets/nikec1.jpg';
 import img2 from '../assets/nikec2.webp';
 import img3 from '../assets/nikec3.jpeg';
 
 import img5 from '../assets/nikec5.jpg';
+import { Button } from '../components/ui/button';
 
 const CarouselComponent = () => {
   const images = [img1, img2, img3, img5];
@@ -51,9 +52,19 @@ const CarouselComponent = () => {
           >
             <img
               src={image}
-              className="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="relative block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt={`Slide ${index + 1}`}
             />
+            <div className='absolute text-center bottom-0 right-0 left-0 text-white mb-20 '>
+              <div className='flex flex-col gap-2 justify-center text-center mb-3'>
+            <p className='text-2xl font-bold'>Just In</p>
+            <h1 className='text-9xl font-bold tracking-tighter'>NIKE AIR MAX</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quidem.</p>
+              </div>
+            <Button className="bg-white text-black rounded-full text-xl px-5 py-5 hover:bg-gray-300 cursor-pointer">Shop</Button>
+
+
+            </div>
           </div>
         ))}
       </div>
