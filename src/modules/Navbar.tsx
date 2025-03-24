@@ -1,5 +1,5 @@
 import { Navlinks, NavLinks01 } from "../constants"
-import logo from "../assets/favicon.ico";
+import logo from "../../public/nik.png";
 import { Badge, Heart, Search } from "lucide-react";
 interface NavItem{
 label:string,
@@ -26,9 +26,9 @@ const Navbar = () => {
       </div>
 
       <div className=" flex justify-between items-center h-20 px-14  bg-white">
-        <div>
-          <img src={logo} alt="" className="h-10 w-20" />
-        </div>
+       <div className="bg-white p-2 rounded-lg">  {/* White container */}
+  <img src={logo} alt="Logo" className="h-10 w-20" />
+</div>
 
         <ul className=" flex ml-36 gap-8 max-lg:hidden text-xl font-semibold" >
           {
