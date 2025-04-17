@@ -53,7 +53,7 @@ const Navbar = () => {
           {isMobileMenuOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
 
-        {/* Icons (Search, Heart, Badge) */}
+
         <div className="hidden md:flex gap-3 items-center mr-5">
           <div className="flex bg-gray-300 rounded-full mr-2">
             <div className="h-10 w-10 flex justify-center items-center hover:bg-gray-400 rounded-full">
@@ -88,28 +88,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="flex flex-col items-center p-4 border-t">
-            <div className="flex bg-gray-300 rounded-full mb-4 w-full max-w-xs">
-              <div className="h-10 w-10 flex justify-center items-center hover:bg-gray-400 rounded-full">
-                <Search />
-              </div>
-              <input
-                type="text"
-                className="border-none outline-none px-2 py-1 flex-grow bg-transparent"
-                placeholder="Search"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-              />
-            </div>
-            <div className="flex gap-4">
-              <div className="p-2 rounded-full hover:bg-gray-200 cursor-pointer">
-                <Heart size={30} />
-              </div>
-              <div className="p-2 rounded-full hover:bg-gray-200 cursor-pointer">
-                <Badge size={30} />
-              </div>
-            </div>
-          </div>
+         
         </div>
       )}
     </div>
