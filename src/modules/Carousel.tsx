@@ -2,12 +2,12 @@ import  { useEffect, useRef } from 'react';
 import img1 from '../assets/nikec1.jpg';
 import img2 from '../assets/nikec2.webp';
 import img3 from '../assets/nikec3.jpeg';
-
+import img4 from '../assets/nikec4.png';
 import img5 from '../assets/nikec5.jpg';
 import { Button } from '../components/ui/button';
 
 const CarouselComponent = () => {
-  const images = [img1, img2, img3, img5];
+  const images = [img1, img2, img3,img4, img5];
   const carouselRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
